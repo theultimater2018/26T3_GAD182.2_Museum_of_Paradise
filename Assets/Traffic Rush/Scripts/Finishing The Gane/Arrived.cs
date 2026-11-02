@@ -1,6 +1,7 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class RestartGame : MonoBehaviour
+public class Arrived : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,8 +15,8 @@ public class RestartGame : MonoBehaviour
         
     }
 
-    public void Restart()
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("OnTime");
     }
 }
