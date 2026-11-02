@@ -47,8 +47,10 @@ public class PlatformerMovement : MonoBehaviour
         playerRigidbody.linearVelocity = new Vector2(moveInput * speed, playerRigidbody.linearVelocity.y);
     }
 
+    /* Uncomment this to see the ground check box.
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireCube(transform.position -transform.up * groundCheckDistance, groundCheckSize);
     }
+    */
 }
