@@ -12,10 +12,10 @@ public class DelayedText : MonoBehaviour
     void Start()
     {
         fullText = textComponent.text;
-        StartCoroutine(ShowText());
+        StartCoroutine(LateText());
     }
 
-    IEnumerator ShowText()
+    IEnumerator LateText()
     {
         for (int i = 0; i <= fullText.Length; i++)
         {

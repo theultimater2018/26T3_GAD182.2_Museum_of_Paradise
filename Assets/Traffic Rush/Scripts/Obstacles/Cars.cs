@@ -13,6 +13,8 @@ public class Cars : MonoBehaviour
     private Vector3 startPosition;                // Original position
     private float timer;                          // Tracks elapsed time
 
+    public Transform playerLocation;
+
     void Start()
     {
         // Store the starting position
@@ -35,6 +37,14 @@ public class Cars : MonoBehaviour
             // Reset position and timer
             transform.position = startPosition;
             timer = 0f;
+        }
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.transform.position = playerLocation.position;
         }
     }
 }
