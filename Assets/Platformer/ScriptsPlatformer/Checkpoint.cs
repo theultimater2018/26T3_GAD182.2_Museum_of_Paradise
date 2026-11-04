@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    [SerializeField] private Vector2 checkpointLocation;
+    [SerializeField] private Vector3 checkpointLocation;
 
     private void Awake()
     {
