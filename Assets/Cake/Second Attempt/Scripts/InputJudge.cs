@@ -2,28 +2,37 @@ using UnityEngine;
 
 public class InputJudge : MonoBehaviour
 {
-    public float targetBeat = 8f;
+    public double targetBeat = 4;
+
+    bool judged;
 
     void Update()
     {
+        if (judged)
+            return;
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            float currentBeat = Manager.Instance.GetCurrentBeat();
+            double currentBeat =
+                Manager.Instance.SongPositionInBeats;
 
-            float difference = Mathf.Abs(currentBeat - targetBeat);
+            double difference =
+                System.Math.Abs(currentBeat - targetBeat);
 
-            if (difference < 0.1f)
+            if (difference < 0.1)
             {
-                Debug.Log("Perfect!");
+                Debug.Log("PERFECT");
             }
-            else if (difference < 0.25f)
+            else if (difference < 0.25)
             {
-                Debug.Log("Good!");
+                Debug.Log("GOOD");
             }
             else
             {
-                Debug.Log("Miss!");
+                Debug.Log("MISS");
             }
+
+            judged = true;
         }
     }
 }

@@ -2,14 +2,29 @@ using UnityEngine;
 
 public class NoteRhythm : MonoBehaviour
 {
-    public float targetBeat;
+    public static NoteRhythm Instance;
+    public double hitBeat;
 
-    void Update()
+    private bool wasHit;
+
+    public bool WasHit => wasHit;
+
+    public void Hit()
     {
-        float currentBeat = Manager.Instance.GetCurrentBeat();
+        wasHit = true;
 
-        if (currentBeat >= targetBeat + 1)
+        Destroy(gameObject);
+    }
+
+    private void Update()
+    {
+        double currentBeat =
+            Manager.Instance.SongPositionInBeats;
+
+        if (!wasHit && currentBeat > hitBeat + 0.3)
         {
+            Debug.Log("MISS");
+
             Destroy(gameObject);
         }
     }

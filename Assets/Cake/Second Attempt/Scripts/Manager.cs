@@ -3,31 +3,44 @@ using UnityEngine;
 public class Manager : MonoBehaviour
 {
 
-    public float bpm = 120f;
-
     public static Manager Instance;
 
-    public float SecondsPerBeat => 60f / bpm;
+    [Header("Song")]
+    public AudioSource musicSource;
+    public float bpm = 120f;
 
-    private float songStartTime;
+    private double songStartTime;
+    private double secondsPerBeat;
 
-    void Awake()
+    public double SongPositionInSeconds
+    {
+        get
+        {
+            return AudioSettings.dspTime - songStartTime;
+        }
+    }
+
+    public double SongPositionInBeats
+    {
+        get
+        {
+            return SongPositionInSeconds / secondsPerBeat;
+        }
+    }
+
+    private void Awake()
     {
         Instance = this;
     }
 
-    void Start()
+    private void Start()
     {
-        songStartTime = Time.time;
-    }
+        secondsPerBeat = 60.0 / bpm;
 
-    public float GetSongTime()
-    {
-        return Time.time - songStartTime;
-    }
+        double startTime = AudioSettings.dspTime + 1.0;
 
-    public float GetCurrentBeat()
-    {
-        return GetSongTime() / SecondsPerBeat;
+        musicSource.PlayScheduled(startTime);
+
+        songStartTime = startTime;
     }
 }
