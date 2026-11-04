@@ -7,8 +7,8 @@ public class WaterHazard : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            //Kill Player
             Debug.Log("Splish Sploosh");
+            PlatformerSystem.OnPlayerKill?.Invoke();
         }
     }
 }
