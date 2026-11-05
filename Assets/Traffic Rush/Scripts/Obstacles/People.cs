@@ -28,12 +28,15 @@ public class People : MonoBehaviour
         {
             spriteRenderer.flipX = pointA.x < pointB.x ? time < 0f : time >= 0f;
             spriteRenderer.flipX = true;
+            Vector3 localscale = transform.localScale;
+            localscale.x = -1f;
         }
 
         else if (people == null)
         {
             spriteRenderer.flipX = pointB.x < pointA.x ? time < 1f : time >= 1f;
             spriteRenderer.flipX = false;
+
 
         }
 
