@@ -3589,7 +3589,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -10.50353, y: -0.29606104}
+  m_Offset: {x: -10.50353, y: -0.20752835}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3599,7 +3599,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 16.07107, y: 12.185031}
+  m_Size: {x: 16.07107, y: 12.362097}
   m_EdgeRadius: 0
 --- !u!1 &629712933
 GameObject:
@@ -5238,7 +5238,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1981926539
-  m_SortingLayer: 7
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -3629804862763668950, guid: 528805c26c5be5c49bbffa025924f0e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9326,6 +9326,7 @@ GameObject:
   - component: {fileID: 1047858066}
   - component: {fileID: 1047858065}
   - component: {fileID: 1047858064}
+  - component: {fileID: 1047858070}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -9556,7 +9557,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1981926539
-  m_SortingLayer: 7
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -7397652778513525935, guid: 528805c26c5be5c49bbffa025924f0e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9584,6 +9585,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1047858070
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047858063}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 777510897401561448d98ddac5f0942a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1059299562
 GameObject:
   m_ObjectHideFlags: 0
@@ -9663,7 +9686,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1981926539
-  m_SortingLayer: 7
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -3629804862763668950, guid: 528805c26c5be5c49bbffa025924f0e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
