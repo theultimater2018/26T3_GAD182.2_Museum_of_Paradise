@@ -3,15 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    [SerializeField] private Scene targetScene;
+    [SerializeField] private string targetScene;
 
     private void OnTriggerEnter(Collider other)
     {
-        // UnloadScene();
+        LoadScene(targetScene);
     }
 
-    private void UnloadScene(Scene target)
+    private void LoadScene(string target)
     {
-        SceneManager.UnloadSceneAsync(target);
+        SceneManager.LoadSceneAsync(target);
     }
 }

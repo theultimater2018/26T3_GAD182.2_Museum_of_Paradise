@@ -1931,6 +1931,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d791fd6583ba23c49a2cc433aeb9a42e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1760004690}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d791fd6583ba23c49a2cc433aeb9a42e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1760004691}
   m_SourcePrefab: {fileID: 100100000, guid: d791fd6583ba23c49a2cc433aeb9a42e, type: 3}
 --- !u!1 &1488037969 stripped
 GameObject:
@@ -2642,6 +2645,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5, y: 0.5, z: 0.5}
   m_Center: {x: 0, y: 0.19, z: 0}
+--- !u!114 &1760004691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488037969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9877de503521b334387d4b6602b20825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScene: Platformer
 --- !u!1 &1763524332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3325,7 +3341,7 @@ GameObject:
   - component: {fileID: 1938366950}
   m_Layer: 0
   m_Name: PLAYER
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
