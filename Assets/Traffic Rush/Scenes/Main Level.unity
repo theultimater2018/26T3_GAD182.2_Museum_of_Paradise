@@ -2771,7 +2771,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.14502764}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2781,7 +2781,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5, y: 1}
+  m_Size: {x: 1.5, y: 0.7099447}
   m_EdgeRadius: 0
 --- !u!212 &520993571
 SpriteRenderer:
@@ -4353,7 +4353,7 @@ MonoBehaviour:
   tutorialPanel: {fileID: 1362224313}
   goPrompt: {fileID: 1500249190}
   gameStarted: 0
-  timerTutorial: 5
+  timerTutorial: 2
   startGameGoTextTimer: 3
 --- !u!114 &682656495
 MonoBehaviour:
@@ -9055,7 +9055,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.110533714}
+  m_Offset: {x: 0, y: -0.14756203}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9065,7 +9065,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5, y: 0.7789326}
+  m_Size: {x: 1.5, y: 0.70487595}
   m_EdgeRadius: 0
 --- !u!212 &1000446716
 SpriteRenderer:
@@ -27644,7 +27644,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.14181471}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -27654,7 +27654,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5, y: 1}
+  m_Size: {x: 1.5, y: 0.7163706}
   m_EdgeRadius: 0
 --- !u!212 &1831335171
 SpriteRenderer:
