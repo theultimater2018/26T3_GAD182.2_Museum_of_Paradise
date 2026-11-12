@@ -6,28 +6,6 @@ public class Movement : MonoBehaviour
 {
     private Rigidbody rb;
 
-    [Header("Jumping")]
-    [Tooltip("Instant jumps on key press. Charged builds strength while holding jump.")]
-    public JumpStyle jumpStyle = JumpStyle.Instant;
-
-    [Tooltip("If true, a jump will happen on the next FixedUpdate.")]
-    [SerializeField] private bool performJump = false;
-
-    [Tooltip("How many seconds the jump key has been held.")]
-    [SerializeField] private float jumpHeldTime = 0f;
-
-    [Tooltip("The longest the jump key can be held.")]
-    [SerializeField] private float jumpHeldTimeMax = 1f;
-
-    [Tooltip("Maximum vertical jump velocity.")]
-    [SerializeField] private float jumpStrength = 6f;
-
-    [Tooltip("Minimum vertical velocity for a charged jump.")]
-    [SerializeField] private float jumpStrengthMin = 2f;
-
-    [Tooltip("The jump velocity that will be applied.")]
-    [SerializeField] private float jumpCharge = 0f;
-
     [Header("Walking")]
     [Tooltip("Maximum walking speed.")]
     public float walkSpeed = 4f;
@@ -91,66 +69,8 @@ public class Movement : MonoBehaviour
 
     private void Update()
     {
-        HandleJumpInput();
         HandleMouseLook();
         HandleMovementInput();
-    }
-
-    private void HandleJumpInput()
-    {
-        if (Keyboard.current == null)
-        {
-            return;
-        }
-
-        switch (jumpStyle)
-        {
-            case JumpStyle.Instant:
-
-                if (onGround && Keyboard.current.spaceKey.wasPressedThisFrame)
-                {
-                    Jump(jumpStrength);
-                }
-
-                break;
-
-            case JumpStyle.Charged:
-
-                if (Keyboard.current.spaceKey.isPressed)
-                {
-                    jumpHeldTime += Time.deltaTime;
-                    jumpHeldTime = Mathf.Clamp(
-                        jumpHeldTime,
-                        0f,
-                        jumpHeldTimeMax
-                    );
-                }
-
-                if (Keyboard.current.spaceKey.wasReleasedThisFrame)
-                {
-                    if (onGround)
-                    {
-                        float chargePercentage =
-                            jumpHeldTimeMax > 0f
-                                ? jumpHeldTime / jumpHeldTimeMax
-                                : 1f;
-
-                        float chargedStrength =
-                            chargePercentage * jumpStrength;
-
-                        Jump(
-                            Mathf.Max(
-                                chargedStrength,
-                                jumpStrengthMin
-                            )
-                        );
-                    }
-
-                    jumpHeldTime = 0f;
-                }
-
-                break;
-        }
     }
 
     private void HandleMouseLook()
@@ -208,17 +128,10 @@ public class Movement : MonoBehaviour
         desiredVelocity = inputDirection * walkSpeed;
     }
 
-    public void Jump(float strength)
-    {
-        performJump = true;
-        jumpCharge = strength;
-    }
-
     private void FixedUpdate()
     {
         CheckGround();
         ApplyMovement();
-        ApplyJump();
     }
 
     private void CheckGround()
@@ -280,20 +193,6 @@ public class Movement : MonoBehaviour
             velocityChange,
             ForceMode.VelocityChange
         );
-    }
-
-    private void ApplyJump()
-    {
-        if (!performJump)
-        {
-            return;
-        }
-
-        Vector3 velocity = rb.linearVelocity;
-        velocity.y = jumpCharge;
-        rb.linearVelocity = velocity;
-
-        performJump = false;
     }
 
     private void OnDrawGizmos()
