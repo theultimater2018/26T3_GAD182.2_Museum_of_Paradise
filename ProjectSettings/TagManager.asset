@@ -42,8 +42,26 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Bcker
+    uniqueID: 2690125047
+    locked: 0
+  - name: Background
+    uniqueID: 4036558933
+    locked: 0
   - name: Floor1
     uniqueID: 109365991
+    locked: 0
+  - name: Access
+    uniqueID: 624329081
+    locked: 0
+  - name: UI
+    uniqueID: 624980679
+    locked: 0
+  - name: Player
+    uniqueID: 4279742373
+    locked: 0
+  - name: Toxic
+    uniqueID: 84700483
     locked: 0
   m_RenderingLayers:
   - Default
