@@ -29,6 +29,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cake.unity
     guid: e674df4f9aef6784a9dee37991343c78
+  - enabled: 1
+    path: Assets/Scenes/ControlScene/ControlTemplate.unity
+    guid: e9e44c2c4ca4b5c43980971524573f52
+  - enabled: 1
+    path: Assets/Scenes/ControlScene/ControlTemplatePixel.unity
+    guid: 6a44bbdb08013674081cd38c84b1d6c3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
