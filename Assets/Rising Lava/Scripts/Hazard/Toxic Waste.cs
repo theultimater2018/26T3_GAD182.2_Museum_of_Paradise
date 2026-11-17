@@ -24,6 +24,7 @@ public class ToxicWaste : MonoBehaviour
     public void DamagePlayer()
     {
         playerStatsScript.HP -= damage;
+        playerStatsScript.healthTextMeshPro.text = "HP: " + playerStatsScript.HP.ToString();
     }
 
     public void OnCollisionEnter2D(Collision2D collision)

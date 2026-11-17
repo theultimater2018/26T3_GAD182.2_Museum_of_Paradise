@@ -6,10 +6,14 @@ public class PlayerStats : MonoBehaviour
     public int HP;
     public int maxHP = 3;
 
+    public TMPro.TextMeshProUGUI healthTextMeshPro;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         HP = maxHP;
+
+        healthTextMeshPro.text = "HP: " + HP.ToString();
     }
 
     // Update is called once per frame

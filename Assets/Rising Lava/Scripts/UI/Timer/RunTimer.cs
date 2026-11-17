@@ -6,6 +6,8 @@ public class RunTimer : MonoBehaviour
 
     public float timeValue = 60;
 
+    public float currentTime;
+
     public TMPro.TextMeshProUGUI timerTextMeshPro;
     void Update()
     {
@@ -19,6 +21,8 @@ public class RunTimer : MonoBehaviour
         }
 
         DisplayTimer(timeValue);
+
+        currentTime = timeValue;
 
     }
 
