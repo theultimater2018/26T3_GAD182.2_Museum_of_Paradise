@@ -3,21 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void StartGame()
     {
-     SceneManager.LoadScene("Main Hub");
+        SceneManager.LoadScene("Main Hub");
+    }
+
+    public void ExitGame()
+    {
+        //Before compiling, uncomment Application.Quit() and remove the next line.
+        //Application.Quit();
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 }
