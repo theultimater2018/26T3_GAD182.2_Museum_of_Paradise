@@ -468,7 +468,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 432714469}
+    m_TransformParent: {fileID: 538410599}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 32f1d0c883bd8524f85a1a98e21405ac, type: 3}
       propertyPath: m_LocalScale.x
@@ -476,7 +476,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 32f1d0c883bd8524f85a1a98e21405ac, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.49619004
+      value: 0.49619007
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 32f1d0c883bd8524f85a1a98e21405ac, type: 3}
       propertyPath: m_LocalScale.z
@@ -484,7 +484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 32f1d0c883bd8524f85a1a98e21405ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3957312
+      value: -0.2627313
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 32f1d0c883bd8524f85a1a98e21405ac, type: 3}
       propertyPath: m_LocalPosition.y
@@ -492,7 +492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 32f1d0c883bd8524f85a1a98e21405ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.6596024
+      value: -0.024
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 32f1d0c883bd8524f85a1a98e21405ac, type: 3}
       propertyPath: m_LocalRotation.w
@@ -636,7 +636,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1893083843}
+  - {fileID: 538410599}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &459181379 stripped
@@ -1141,6 +1141,74 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 696893351}
   m_SourcePrefab: {fileID: 100100000, guid: 5d20ef387a3f8ac42adc7ec0829fe498, type: 3}
+--- !u!1 &538410598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 538410599}
+  - component: {fileID: 538410601}
+  - component: {fileID: 538410600}
+  m_Layer: 0
+  m_Name: Traffic Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &538410599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538410598}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.133, y: 0, z: 1.757}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1893083843}
+  m_Father: {fileID: 432714469}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &538410600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538410598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9877de503521b334387d4b6602b20825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScene: ControlTemplatePixel
+--- !u!65 &538410601
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538410598}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 0.5, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &540740356
 GameObject:
   m_ObjectHideFlags: 0
@@ -3594,7 +3662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9877de503521b334387d4b6602b20825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: Platformer
+  targetScene: ControlTemplate
 --- !u!1 &1763524332
 GameObject:
   m_ObjectHideFlags: 0
