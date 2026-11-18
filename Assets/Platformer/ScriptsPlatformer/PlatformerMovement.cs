@@ -69,11 +69,9 @@ public class PlatformerMovement : MonoBehaviour
         FlipSprite();
     }
 
-    /* Uncomment this to see the groundCheck box.
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireCube(transform.position -transform.up * groundCheckDistance, groundCheckSize);
     }
-    */
     #endregion
 }
