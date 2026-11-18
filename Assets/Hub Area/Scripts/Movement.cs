@@ -52,11 +52,6 @@ public class Movement : MonoBehaviour
     [Tooltip("Current desired local movement velocity.")]
     [SerializeField] private Vector3 desiredVelocity = Vector3.zero;
 
-    public enum JumpStyle
-    {
-        Instant,
-        Charged
-    }
 
     private void Start()
     {

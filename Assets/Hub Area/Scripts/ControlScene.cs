@@ -6,6 +6,7 @@ public class ControlScene : MonoBehaviour
     private void OnEnable()
     {
         Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void LoadScene(string target)
