@@ -2,8 +2,10 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - wall
+  - car
   layers:
   - Default
   - TransparentFX
@@ -11,7 +13,14 @@ TagManager:
   - 
   - Water
   - UI
+  - Base
+  - Trees
+  - Buildings
+  - Building Accessories
+  - Player
+  - Car Changer
   - 
+  - Ground
   - 
   - 
   - 
@@ -41,3 +50,26 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Base
+    uniqueID: 2016092823
+    locked: 0
+  - name: Trees
+    uniqueID: 1589853533
+    locked: 0
+  - name: Buildings
+    uniqueID: 3957162065
+    locked: 0
+  - name: Building Accessories
+    uniqueID: 1540386975
+    locked: 0
+  - name: Cars
+    uniqueID: 1809217651
+    locked: 0
+  - name: UI
+    uniqueID: 1768560689
+    locked: 0
+  - name: Player
+    uniqueID: 2313040757
+    locked: 0
+  m_RenderingLayers:
+  - Default

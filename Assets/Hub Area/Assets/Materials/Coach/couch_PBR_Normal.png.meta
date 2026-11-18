@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: 0ea40e5d42a00164c89b3fd110a1dba6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5805016563895820410
+    second: couch_PBR_Normal_0
+  - first:
+      213: 4566227831888664052
+    second: couch_PBR_Normal_1
+  - first:
+      213: -7633151927988830656
+    second: couch_PBR_Normal_2
+  - first:
+      213: 5965876928238483891
+    second: couch_PBR_Normal_3
+  - first:
+      213: -1932963590650890965
+    second: couch_PBR_Normal_4
+  - first:
+      213: 8107289921295590715
+    second: couch_PBR_Normal_5
+  - first:
+      213: -1054819563932139517
+    second: couch_PBR_Normal_6
+  - first:
+      213: -553501269951716287
+    second: couch_PBR_Normal_7
+  - first:
+      213: -5555478092634681121
+    second: couch_PBR_Normal_8
+  - first:
+      213: -6237057147314071347
+    second: couch_PBR_Normal_9
+  - first:
+      213: 7865103949549597016
+    second: couch_PBR_Normal_10
+  - first:
+      213: -1781103132871055909
+    second: couch_PBR_Normal_11
+  - first:
+      213: 4796607013663122703
+    second: couch_PBR_Normal_12
+  - first:
+      213: -2531084639500291920
+    second: couch_PBR_Normal_13
+  - first:
+      213: 1645871539337828532
+    second: couch_PBR_Normal_14
+  - first:
+      213: 724956033452254807
+    second: couch_PBR_Normal_15
+  - first:
+      213: -1284448585686074703
+    second: couch_PBR_Normal_16
+  - first:
+      213: -4112297612733593447
+    second: couch_PBR_Normal_17
+  - first:
+      213: -5444871970447265033
+    second: couch_PBR_Normal_18
+  - first:
+      213: 2276808460382165296
+    second: couch_PBR_Normal_19
+  - first:
+      213: -4647913767585447118
+    second: couch_PBR_Normal_20
+  - first:
+      213: -3535499936583018193
+    second: couch_PBR_Normal_21
+  - first:
+      213: -6308742566909618521
+    second: couch_PBR_Normal_22
+  - first:
+      213: 2363706907132998318
+    second: couch_PBR_Normal_23
+  - first:
+      213: 1196896367985854499
+    second: couch_PBR_Normal_24
+  - first:
+      213: 130622964874769779
+    second: couch_PBR_Normal_25
+  - first:
+      213: -9214297338665229863
+    second: couch_PBR_Normal_26
+  - first:
+      213: 4749736855764717032
+    second: couch_PBR_Normal_27
+  - first:
+      213: -4562635351051831507
+    second: couch_PBR_Normal_28
+  - first:
+      213: 8012838894644641190
+    second: couch_PBR_Normal_29
+  - first:
+      213: 2940810477998561946
+    second: couch_PBR_Normal_30
+  - first:
+      213: 249613715306470647
+    second: couch_PBR_Normal_31
+  - first:
+      213: -1930744192079288305
+    second: couch_PBR_Normal_32
+  - first:
+      213: -1080701050384796539
+    second: couch_PBR_Normal_33
+  - first:
+      213: -599388980214852651
+    second: couch_PBR_Normal_34
+  - first:
+      213: 7991805891295923825
+    second: couch_PBR_Normal_35
+  - first:
+      213: 1676506704055746440
+    second: couch_PBR_Normal_36
+  - first:
+      213: 4729971501145341631
+    second: couch_PBR_Normal_37
+  - first:
+      213: 2066201955348875292
+    second: couch_PBR_Normal_38
+  - first:
+      213: 7565241467845008019
+    second: couch_PBR_Normal_39
+  - first:
+      213: 7736323269313360801
+    second: couch_PBR_Normal_40
+  - first:
+      213: -5644088707372326567
+    second: couch_PBR_Normal_41
+  - first:
+      213: -2141326512263818980
+    second: couch_PBR_Normal_42
+  - first:
+      213: -652483763542538582
+    second: couch_PBR_Normal_43
+  - first:
+      213: 337704963299213960
+    second: couch_PBR_Normal_44
+  - first:
+      213: -9205934885466274939
+    second: couch_PBR_Normal_45
+  - first:
+      213: 623472015531267597
+    second: couch_PBR_Normal_46
+  - first:
+      213: 6481932794635181815
+    second: couch_PBR_Normal_47
+  - first:
+      213: -7046880721598741310
+    second: couch_PBR_Normal_48
+  - first:
+      213: 3638759073477959949
+    second: couch_PBR_Normal_49
+  - first:
+      213: -927504892127228902
+    second: couch_PBR_Normal_50
+  - first:
+      213: 5436805285863035890
+    second: couch_PBR_Normal_51
+  - first:
+      213: -4763873941278680207
+    second: couch_PBR_Normal_52
+  - first:
+      213: -3408771143742280200
+    second: couch_PBR_Normal_53
+  - first:
+      213: 4963846993519693034
+    second: couch_PBR_Normal_54
+  - first:
+      213: -3341125824346891408
+    second: couch_PBR_Normal_55
+  - first:
+      213: -3837089070297058689
+    second: couch_PBR_Normal_56
+  - first:
+      213: -4186482524578419597
+    second: couch_PBR_Normal_57
+  - first:
+      213: -6791037658684467476
+    second: couch_PBR_Normal_58
+  - first:
+      213: 4773791518375672375
+    second: couch_PBR_Normal_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: couch_PBR_Normal_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1429
+        width: 145
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f1bb10130707fa0800000000000000
+      internalID: -5805016563895820410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1338
+        width: 145
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5d93b25008e5f30800000000000000
+      internalID: 4566227831888664052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1338
+        width: 146
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e33af73c8911690800000000000000
+      internalID: -7633151927988830656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_3
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1662
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b97a59257d0bc250800000000000000
+      internalID: 5965876928238483891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1662
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b257d770bdbbc25e0800000000000000
+      internalID: -1932963590650890965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_5
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1662
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35ade9aa31e28070800000000000000
+      internalID: 8107289921295590715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_6
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1010
+        width: 147
+        height: 1033
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30041bdf1378c51f0800000000000000
+      internalID: -1054819563932139517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_7
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1010
+        width: 136
+        height: 1033
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144eccd07819158f0800000000000000
+      internalID: -553501269951716287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_8
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1010
+        width: 112
+        height: 968
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd09b03eb1af6e2b0800000000000000
+      internalID: -5555478092634681121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_9
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1633
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc89882e1958179a0800000000000000
+      internalID: -6237057147314071347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_10
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1626
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851fc6afe56762d60800000000000000
+      internalID: 7865103949549597016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_11
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1647
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5a2e823204847e0800000000000000
+      internalID: -1781103132871055909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_12
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1647
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05a9885aa8f09240800000000000000
+      internalID: 4796607013663122703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_13
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1647
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0332e3ee7cfdcd0800000000000000
+      internalID: -2531084639500291920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_14
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1647
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b81820e17f47d610800000000000000
+      internalID: 1645871539337828532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_15
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 5
+        width: 153
+        height: 1750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756a2b3ebaf8f0a00800000000000000
+      internalID: 724956033452254807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_16
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1601
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1babded01d8bc2ee0800000000000000
+      internalID: -1284448585686074703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_17
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1601
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998c35eeb1f2ee6c0800000000000000
+      internalID: -4112297612733593447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_18
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1601
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f272028acdef64b0800000000000000
+      internalID: -5444871970447265033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_19
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1601
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039deae4b39d89f10800000000000000
+      internalID: 2276808460382165296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_20
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1601
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2330c68dd0b4f7fb0800000000000000
+      internalID: -4647913767585447118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_21
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1601
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f299d802a816feec0800000000000000
+      internalID: -3535499936583018193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_22
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1572
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a657ff7f08d278a0800000000000000
+      internalID: -6308742566909618521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_23
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1565
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2bcc898e29dc020800000000000000
+      internalID: 2363706907132998318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_24
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1586
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32880ceb7ea3c9010800000000000000
+      internalID: 1196896367985854499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_25
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1586
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3757edcf4e010d100800000000000000
+      internalID: 130622964874769779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_26
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1586
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d12802d36d302080800000000000000
+      internalID: -9214297338665229863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_27
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1586
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edcf6051847ae140800000000000000
+      internalID: 4749736855764717032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_28
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1446
+        width: 395
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d277ae472534ea0c0800000000000000
+      internalID: -4562635351051831507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_29
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1511
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad3ab55582533f60800000000000000
+      internalID: 8012838894644641190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_30
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1507
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ad9d47c8bdfc820800000000000000
+      internalID: 2940810477998561946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_31
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1180
+        width: 146
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc58eff95ec67300800000000000000
+      internalID: 249613715306470647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_32
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1180
+        width: 146
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0827f6036e9435e0800000000000000
+      internalID: -1930744192079288305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_33
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1449
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5843c67de149001f0800000000000000
+      internalID: -1080701050384796539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_34
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1443
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d39200f5ea8ea7f0800000000000000
+      internalID: -599388980214852651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1023
+        width: 157
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e4190ad1998ee60800000000000000
+      internalID: 7991805891295923825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_36
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1399
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fbdcef6f5244710800000000000000
+      internalID: 1676506704055746440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_37
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1398
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe3d73150c34a140800000000000000
+      internalID: 4729971501145341631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_38
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1023
+        width: 147
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1889ce2bbf9cac10800000000000000
+      internalID: 2066201955348875292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_39
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1023
+        width: 145
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ad4fa58032df860800000000000000
+      internalID: 7565241467845008019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_40
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1387
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3f20f4601fc5b60800000000000000
+      internalID: 7736323269313360801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_41
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1382
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951674c693b2ca1b0800000000000000
+      internalID: -5644088707372326567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_42
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1338
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c119360e1ea7842e0800000000000000
+      internalID: -2141326512263818980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_43
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1338
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6465c5979e1f6f0800000000000000
+      internalID: -652483763542538582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_44
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1321
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8820658ffd4cfa400800000000000000
+      internalID: 337704963299213960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_45
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1321
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583086e2ff2fd3080800000000000000
+      internalID: -9205934885466274939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_46
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1180
+        width: 413
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06532dae7407a800800000000000000
+      internalID: 623472015531267597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_47
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1217
+        width: 30
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe5f22b88374f950800000000000000
+      internalID: 6481932794635181815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_48
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1235
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c40f86d153743e90800000000000000
+      internalID: -7046880721598741310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_49
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1113
+        width: 30
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0122ed29187f7230800000000000000
+      internalID: 3638759073477959949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_50
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1174
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cc159f637d023f0800000000000000
+      internalID: -927504892127228902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_51
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1023
+        width: 413
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f315d02a99637b40800000000000000
+      internalID: 5436805285863035890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_52
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1113
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b1857f3e153edb0800000000000000
+      internalID: -4763873941278680207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_53
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 5
+        width: 343
+        height: 1165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fda3a884bc91b0d0800000000000000
+      internalID: -3408771143742280200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_54
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1010
+        width: 30
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecc1208a8023e440800000000000000
+      internalID: 4963846993519693034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_55
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1010
+        width: 31
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b5be9c3cfe1a1d0800000000000000
+      internalID: -3341125824346891408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_56
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1062
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72f86102dbefbac0800000000000000
+      internalID: -3837089070297058689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_57
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 896
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c6f182350a6e5c0800000000000000
+      internalID: -4186482524578419597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_58
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1010
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6dfc9da3361c1a0800000000000000
+      internalID: -6791037658684467476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_PBR_Normal_59
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 5
+        width: 550
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73afd84e71aef3240800000000000000
+      internalID: 4773791518375672375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      couch_PBR_Normal_0: -5805016563895820410
+      couch_PBR_Normal_1: 4566227831888664052
+      couch_PBR_Normal_10: 7865103949549597016
+      couch_PBR_Normal_11: -1781103132871055909
+      couch_PBR_Normal_12: 4796607013663122703
+      couch_PBR_Normal_13: -2531084639500291920
+      couch_PBR_Normal_14: 1645871539337828532
+      couch_PBR_Normal_15: 724956033452254807
+      couch_PBR_Normal_16: -1284448585686074703
+      couch_PBR_Normal_17: -4112297612733593447
+      couch_PBR_Normal_18: -5444871970447265033
+      couch_PBR_Normal_19: 2276808460382165296
+      couch_PBR_Normal_2: -7633151927988830656
+      couch_PBR_Normal_20: -4647913767585447118
+      couch_PBR_Normal_21: -3535499936583018193
+      couch_PBR_Normal_22: -6308742566909618521
+      couch_PBR_Normal_23: 2363706907132998318
+      couch_PBR_Normal_24: 1196896367985854499
+      couch_PBR_Normal_25: 130622964874769779
+      couch_PBR_Normal_26: -9214297338665229863
+      couch_PBR_Normal_27: 4749736855764717032
+      couch_PBR_Normal_28: -4562635351051831507
+      couch_PBR_Normal_29: 8012838894644641190
+      couch_PBR_Normal_3: 5965876928238483891
+      couch_PBR_Normal_30: 2940810477998561946
+      couch_PBR_Normal_31: 249613715306470647
+      couch_PBR_Normal_32: -1930744192079288305
+      couch_PBR_Normal_33: -1080701050384796539
+      couch_PBR_Normal_34: -599388980214852651
+      couch_PBR_Normal_35: 7991805891295923825
+      couch_PBR_Normal_36: 1676506704055746440
+      couch_PBR_Normal_37: 4729971501145341631
+      couch_PBR_Normal_38: 2066201955348875292
+      couch_PBR_Normal_39: 7565241467845008019
+      couch_PBR_Normal_4: -1932963590650890965
+      couch_PBR_Normal_40: 7736323269313360801
+      couch_PBR_Normal_41: -5644088707372326567
+      couch_PBR_Normal_42: -2141326512263818980
+      couch_PBR_Normal_43: -652483763542538582
+      couch_PBR_Normal_44: 337704963299213960
+      couch_PBR_Normal_45: -9205934885466274939
+      couch_PBR_Normal_46: 623472015531267597
+      couch_PBR_Normal_47: 6481932794635181815
+      couch_PBR_Normal_48: -7046880721598741310
+      couch_PBR_Normal_49: 3638759073477959949
+      couch_PBR_Normal_5: 8107289921295590715
+      couch_PBR_Normal_50: -927504892127228902
+      couch_PBR_Normal_51: 5436805285863035890
+      couch_PBR_Normal_52: -4763873941278680207
+      couch_PBR_Normal_53: -3408771143742280200
+      couch_PBR_Normal_54: 4963846993519693034
+      couch_PBR_Normal_55: -3341125824346891408
+      couch_PBR_Normal_56: -3837089070297058689
+      couch_PBR_Normal_57: -4186482524578419597
+      couch_PBR_Normal_58: -6791037658684467476
+      couch_PBR_Normal_59: 4773791518375672375
+      couch_PBR_Normal_6: -1054819563932139517
+      couch_PBR_Normal_7: -553501269951716287
+      couch_PBR_Normal_8: -5555478092634681121
+      couch_PBR_Normal_9: -6237057147314071347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
