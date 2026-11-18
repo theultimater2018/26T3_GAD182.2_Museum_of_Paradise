@@ -16,22 +16,14 @@ public class PlatformerSystem : MonoBehaviour
         Debug.Log("Player Killed");
     }
 
-    private void SetNewCheckpoint(Vector3 newPosition)
-    {
-        respawnLocation = newPosition;
-    }
-
     private void OnEnable()
     {
         respawnLocation = new Vector3(-8f, -1.3f, -1f);
         OnPlayerKill.AddListener(KillPlayer);
-        onCheckpointPass += SetNewCheckpoint;
-
         KillPlayer();
     }
     private void OnDisable()
     {
         OnPlayerKill.RemoveListener(KillPlayer);
-        onCheckpointPass -= SetNewCheckpoint;
     }
 }
