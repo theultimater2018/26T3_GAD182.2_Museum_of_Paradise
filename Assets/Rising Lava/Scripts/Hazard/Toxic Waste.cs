@@ -6,6 +6,7 @@ public class ToxicWaste : MonoBehaviour
     public float moveSpeed = 0.02f;
 
     public PlayerStats playerStatsScript;
+    public PlayerMats playerMatsScript;
 
     public int damage;
 
@@ -32,8 +33,18 @@ public class ToxicWaste : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             DamagePlayer();
+            playerMatsScript.UpdateMats();
+
         }
 
+    }
+
+    public void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            playerMatsScript.ResetMats();
+        }
     }
 }
 
