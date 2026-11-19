@@ -1,72 +1,75 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class ArrowSize : MonoBehaviour
+namespace TrafficRush
 {
-
-    public GameObject arrow;
-
-    public float arrowTimer = 5f;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class ArrowSize : MonoBehaviour
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (arrowTimer > 0)
+        public GameObject arrow;
+
+        public float arrowTimer = 5f;
+
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
         {
-            arrowTimer -= Time.deltaTime;
+
         }
 
-        ArrowSizes();
+        // Update is called once per frame
+        void Update()
+        {
+            if (arrowTimer > 0)
+            {
+                arrowTimer -= Time.deltaTime;
+            }
 
-        if (arrowTimer <= 0)
-        {
-            arrow.SetActive(false);
-        }
-    }
+            ArrowSizes();
 
-    public void ArrowSizes()
-    {
-        if (arrowTimer >= 4.5f)
-        {
-            arrow.transform.localScale = new Vector3(1f, 1f, 1f);
+            if (arrowTimer <= 0)
+            {
+                arrow.SetActive(false);
+            }
         }
-        if (arrowTimer <= 4)
+
+        public void ArrowSizes()
         {
-            arrow.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
-        }
-        if (arrowTimer <= 3.5f)
-        {
-            arrow.transform.localScale = new Vector3(1f, 1f, 1f);
-        }
-        if (arrowTimer <= 3)
-        {
-            arrow.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
-        }
-        if (arrowTimer <= 2.5f)
-        {
-            arrow.transform.localScale = new Vector3(1f, 1f, 1f);
-        }
-        if (arrowTimer <= 2)
-        {
-            arrow.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
-        }
-        if (arrowTimer <= 1.5f)
-        {
-            arrow.transform.localScale = new Vector3(1f, 1f, 1f);
-        }
-        if (arrowTimer <= 1)
-        {
-            arrow.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
-        }
-        if (arrowTimer <= 0.5f)
-        {
-            arrow.transform.localScale = new Vector3(1f, 1f, 1f);
+            if (arrowTimer >= 4.5f)
+            {
+                arrow.transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+            if (arrowTimer <= 4)
+            {
+                arrow.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+            }
+            if (arrowTimer <= 3.5f)
+            {
+                arrow.transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+            if (arrowTimer <= 3)
+            {
+                arrow.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+            }
+            if (arrowTimer <= 2.5f)
+            {
+                arrow.transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+            if (arrowTimer <= 2)
+            {
+                arrow.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+            }
+            if (arrowTimer <= 1.5f)
+            {
+                arrow.transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+            if (arrowTimer <= 1)
+            {
+                arrow.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+            }
+            if (arrowTimer <= 0.5f)
+            {
+                arrow.transform.localScale = new Vector3(1f, 1f, 1f);
+            }
         }
     }
 }
