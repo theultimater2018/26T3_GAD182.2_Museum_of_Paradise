@@ -1,49 +1,52 @@
 using UnityEngine;
 
-public class ToxicWaste : MonoBehaviour
+namespace ToxicGetaway
 {
-    private Vector3 startPosition;
-    public float moveSpeed = 0.02f;
-
-    public PlayerStats playerStatsScript;
-    public PlayerMats playerMatsScript;
-
-    public int damage;
-
-    void Start()
+    public class ToxicWaste : MonoBehaviour
     {
-        startPosition = transform.position;
+        private Vector3 startPosition;
+        public float moveSpeed = 0.02f;
 
-        damage = playerStatsScript.maxHP;
-    }
+        public PlayerStats playerStatsScript;
+        public PlayerMats playerMatsScript;
 
-    void Update()
-    {
-            transform.position += Vector3.up * moveSpeed; 
-    }
+        public int damage;
 
-    public void DamagePlayer()
-    {
-        playerStatsScript.HP -= damage;
-        playerStatsScript.healthTextMeshPro.text = "HP: " + playerStatsScript.HP.ToString();
-    }
-
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
+        void Start()
         {
-            DamagePlayer();
-            playerMatsScript.UpdateMats();
+            startPosition = transform.position;
+
+            damage = playerStatsScript.maxHP;
+        }
+
+        void Update()
+        {
+            transform.position += Vector3.up * moveSpeed;
+        }
+
+        public void DamagePlayer()
+        {
+            playerStatsScript.HP -= damage;
+            playerStatsScript.healthTextMeshPro.text = "HP: " + playerStatsScript.HP.ToString();
+        }
+
+        public void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.gameObject.CompareTag("Player"))
+            {
+                DamagePlayer();
+                playerMatsScript.UpdateMats();
+
+            }
 
         }
 
-    }
-
-    public void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
+        public void OnCollisionExit2D(Collision2D collision)
         {
-            playerMatsScript.ResetMats();
+            if (collision.gameObject.CompareTag("Player"))
+            {
+                playerMatsScript.ResetMats();
+            }
         }
     }
 }

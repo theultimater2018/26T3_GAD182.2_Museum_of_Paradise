@@ -1,45 +1,48 @@
 using UnityEngine;
 
-public class PurpleBug : MonoBehaviour
+namespace ToxicGetaway
 {
-    public PlayerStats playerStatsScript;
-    public PlayerMats playerMatsScript;
-
-    public int damage = 1;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class PurpleBug : MonoBehaviour
     {
-        
-    }
+        public PlayerStats playerStatsScript;
+        public PlayerMats playerMatsScript;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void DamagePlayer()
-    {
-        playerStatsScript.HP -= damage;
-        playerStatsScript.healthTextMeshPro.text = "HP: " + playerStatsScript.HP.ToString();
-    }
-
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
+        public int damage = 1;
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
         {
-            DamagePlayer();
-            playerMatsScript.UpdateMats();
 
         }
 
-    }
-
-    public void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
+        // Update is called once per frame
+        void Update()
         {
-            playerMatsScript.ResetMats();
+
+        }
+
+        public void DamagePlayer()
+        {
+            playerStatsScript.HP -= damage;
+            playerStatsScript.healthTextMeshPro.text = "HP: " + playerStatsScript.HP.ToString();
+        }
+
+        public void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.gameObject.CompareTag("Player"))
+            {
+                DamagePlayer();
+                playerMatsScript.UpdateMats();
+
+            }
+
+        }
+
+        public void OnCollisionExit2D(Collision2D collision)
+        {
+            if (collision.gameObject.CompareTag("Player"))
+            {
+                playerMatsScript.ResetMats();
+            }
         }
     }
 }

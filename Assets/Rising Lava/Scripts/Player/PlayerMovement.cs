@@ -1,43 +1,46 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+namespace ToxicGetaway
 {
-    public float moveSpeed = 5f;
-    public float jumpForce = 10f;
-    public bool isGrounded;
-    private Rigidbody2D rb;
-
-    void Start()
+    public class PlayerMovement : MonoBehaviour
     {
-        rb = GetComponent<Rigidbody2D>();
-    }
+        public float moveSpeed = 5f;
+        public float jumpForce = 10f;
+        public bool isGrounded;
+        private Rigidbody2D rb;
 
-    void Update()
-    {
-        // Horizontal movement
-        float moveInput = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-
-        // Jump
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        void Start()
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            rb = GetComponent<Rigidbody2D>();
         }
-    }
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
+        void Update()
         {
-            isGrounded = true;
+            // Horizontal movement
+            float moveInput = Input.GetAxis("Horizontal");
+            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+
+            // Jump
+            if (Input.GetButtonDown("Jump") && isGrounded)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            }
         }
-    }
 
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
+        void OnCollisionEnter2D(Collision2D collision)
         {
-            isGrounded = false;
+            if (collision.gameObject.CompareTag("Ground"))
+            {
+                isGrounded = true;
+            }
+        }
+
+        void OnCollisionExit2D(Collision2D collision)
+        {
+            if (collision.gameObject.CompareTag("Ground"))
+            {
+                isGrounded = false;
+            }
         }
     }
 }

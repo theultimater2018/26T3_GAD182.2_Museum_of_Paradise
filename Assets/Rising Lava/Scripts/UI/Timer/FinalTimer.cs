@@ -1,25 +1,28 @@
 using UnityEngine;
 
-public class FinalTimer : RunTimer
+namespace ToxicGetaway
 {
-
-    public TMPro.TextMeshProUGUI finalTimerTextMeshPro;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class FinalTimer : RunTimer
     {
 
-    }
+        public TMPro.TextMeshProUGUI finalTimerTextMeshPro;
 
-    // Update is called once per frame
-    void Update()
-    {
-        FinalTime();
-    }
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
+        {
 
-    public void FinalTime()
-    {
-        currentTime = timeValue;
-        finalTimerTextMeshPro.text = "Final Time: " + currentTime.ToString("F2");
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            FinalTime();
+        }
+
+        public void FinalTime()
+        {
+            currentTime = timeValue;
+            finalTimerTextMeshPro.text = "Final Time: " + currentTime.ToString("F2");
+        }
     }
 }

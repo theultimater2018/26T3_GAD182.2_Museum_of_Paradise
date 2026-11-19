@@ -1,37 +1,40 @@
 using UnityEngine;
 
-public class PlayerMats : MonoBehaviour
+namespace ToxicGetaway
 {
-
-    public PlayerStats playerStatsScript;
-
-    public Material playerMaterial;
-    public Material playerHurt;
-    public SpriteRenderer playerMeshRenderer;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class PlayerMats : MonoBehaviour
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+        public PlayerStats playerStatsScript;
 
-    public void UpdateMats() // Updates the players matetial to a darker tone for every 5 HP lost
-    {
-        if (playerStatsScript.HP <= 2)
+        public Material playerMaterial;
+        public Material playerHurt;
+        public SpriteRenderer playerMeshRenderer;
+
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
         {
-            playerMeshRenderer.material = playerHurt;
-        }
-    }
 
-    public void ResetMats() // Resets the players material to the original material
-    {
-        playerMeshRenderer.material = playerMaterial;
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+
+        public void UpdateMats() // Updates the players matetial to a darker tone for every 5 HP lost
+        {
+            if (playerStatsScript.HP <= 2)
+            {
+                playerMeshRenderer.material = playerHurt;
+            }
+        }
+
+        public void ResetMats() // Resets the players material to the original material
+        {
+            playerMeshRenderer.material = playerMaterial;
+        }
     }
 
 }
