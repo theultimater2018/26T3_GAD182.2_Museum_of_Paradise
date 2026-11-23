@@ -8,8 +8,6 @@ namespace TrafficRush
     public class Tutorial : MonoBehaviour
     {
 
-        public GameObject tutorialPanel;
-
         public GameObject goPrompt;
         public bool gameStarted = false;
 
@@ -20,7 +18,6 @@ namespace TrafficRush
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            tutorialPanel.SetActive(true);
             goPrompt.SetActive(false);
         }
 
@@ -42,7 +39,6 @@ namespace TrafficRush
             // When timer reaches appearTime, show the object
             if (timerTutorial <= 0)
             {
-                tutorialPanel.SetActive(false);
                 goPrompt.SetActive(true);
                 gameStarted = true;
                 Debug.Log("Tutorial Closed");
