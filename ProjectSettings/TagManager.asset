@@ -63,5 +63,8 @@ TagManager:
   - name: Toxic
     uniqueID: 84700483
     locked: 0
+  - name: ParticleEffects
+    uniqueID: 2391098753
+    locked: 0
   m_RenderingLayers:
   - Default
