@@ -1187,7 +1187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9877de503521b334387d4b6602b20825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: ControlTemplatePixel
+  targetScene: MainMenuTEMPY
 --- !u!65 &538410601
 BoxCollider:
   m_ObjectHideFlags: 0
