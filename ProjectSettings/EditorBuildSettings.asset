@@ -5,12 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Platformer.unity
+    path: Assets/Scenes/Main Hub.unity
+    guid: 87349162bbc297b4db88032f23733377
+  - enabled: 1
+    path: Assets/Scenes/ControlScene/PlatformerControl.unity
+    guid: ec7c820d380b2644cb02fd9b4233fdb3
+  - enabled: 1
+    path: Assets/Scenes/PlatformerScenes/Platformer.unity
     guid: cf8565fc64bdfb743b7ac58b983a0278
+  - enabled: 1
+    path: Assets/Scenes/PlatformerScenes/GameOverPlatformer.unity
+    guid: f9fe03a9e114b89459a72e5ba3ce53b4
+  - enabled: 1
+    path: Assets/Scenes/PlatformerScenes/YouWinPlatformer.unity
+    guid: 6c6e115ead83ad0408d7744d47d214f3
   - enabled: 1
     path: Assets/Traffic Rush/Scenes/Main Level.unity
     guid: 1eb0652035cf5d04da867b02a20888fe
@@ -23,6 +32,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Traffic Rush/Scenes/OnTime.unity
     guid: f5ee9af9e1985464c901e667e7185d07
+  - enabled: 1
+    path: Assets/Scenes/microgame_breathe.unity
+    guid: a097b04c807c6ae40a5e695c8b79e537
+  - enabled: 1
+    path: Assets/Scenes/Cake.unity
+    guid: e674df4f9aef6784a9dee37991343c78
+  - enabled: 1
+    path: Assets/Scenes/ControlScene/ControlTemplate.unity
+    guid: e9e44c2c4ca4b5c43980971524573f52
+  - enabled: 1
+    path: Assets/Scenes/ControlScene/ControlTemplatePixel.unity
+    guid: 6a44bbdb08013674081cd38c84b1d6c3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
