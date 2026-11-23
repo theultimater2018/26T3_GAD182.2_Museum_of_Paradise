@@ -19,7 +19,7 @@ namespace TrafficRush
 
         public void Restart()
         {
-            SceneManager.LoadScene("Main Menu");
+            SceneManager.LoadScene("MainMenuTEMPY");
         }
     }
 }
