@@ -10,10 +10,10 @@ public class SliceCake : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            CheckInput();
+            // CheckInput();
         }
     }
-
+/*
     void CheckInput()
     {
         NoteRhythm[] notes =
@@ -58,4 +58,5 @@ public class SliceCake : MonoBehaviour
             closest.Hit();
         }
     }
+*/
 }
