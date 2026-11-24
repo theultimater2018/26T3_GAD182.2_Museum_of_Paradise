@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
 
 namespace TrafficRush
 {
@@ -8,6 +7,7 @@ namespace TrafficRush
     {
 
         public float menuTimer = 3f;
+        [SerializeField] private string sceneToLoad;
 
         public TMPro.TextMeshProUGUI timer1;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -59,7 +59,7 @@ namespace TrafficRush
             }
             if (menuTimer <= 0)
             {
-                SceneManager.LoadScene("Main Level");
+                SceneManager.LoadScene(sceneToLoad);
             }
         }
     }
