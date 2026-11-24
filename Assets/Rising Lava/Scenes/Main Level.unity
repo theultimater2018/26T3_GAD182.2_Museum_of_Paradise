@@ -5241,7 +5241,7 @@ Transform:
   m_GameObject: {fileID: 729124202}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0030893618, y: 0.7071, z: -0.70710015, w: -0.0030893616}
-  m_LocalPosition: {x: -30.40312, y: 87.47879, z: -0.53775024}
+  m_LocalPosition: {x: -30.5, y: 80.6, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 3.3845234}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5514,7 +5514,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0, b: 0, a: 1}
+      maxColor: {r: 0.107607074, g: 0.7169812, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -10403,7 +10403,7 @@ Transform:
   m_GameObject: {fileID: 823267374}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0030893618, y: 0.7071, z: -0.70710015, w: -0.0030893616}
-  m_LocalPosition: {x: -30.40312, y: 87.47879, z: -0.53775024}
+  m_LocalPosition: {x: -30.5, y: 80.6, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 3.3845234}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10676,7 +10676,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0, b: 0, a: 1}
+      maxColor: {r: 0.107607074, g: 0.7169812, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -15691,7 +15691,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0, b: 0, a: 1}
+      maxColor: {r: 0.107607074, g: 0.7169812, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -20233,7 +20233,7 @@ Transform:
   m_GameObject: {fileID: 899526231}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0030893618, y: 0.7071, z: -0.70710015, w: -0.0030893616}
-  m_LocalPosition: {x: -30.40312, y: 87.47879, z: -0.53775024}
+  m_LocalPosition: {x: -30.5, y: 80.6, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 3.3845234}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22297,7 +22297,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1317564969}
   - component: {fileID: 1317564968}
-  - component: {fileID: 1317564970}
   - component: {fileID: 1317564971}
   m_Layer: 0
   m_Name: Timer/TutorialManagerment
@@ -22336,21 +22335,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1317564970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317564967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb151d03d3e9ad54e9793b65a5847732, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 0}
-  delay: 0.05
-  heldTimer: {fileID: 0}
 --- !u!61 &1317564971
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23903,7 +23887,7 @@ Transform:
   m_GameObject: {fileID: 1996244867}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.603119, y: -8.378789, z: -77.062256}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
