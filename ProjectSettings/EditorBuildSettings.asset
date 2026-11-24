@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Hub.unity
     guid: 87349162bbc297b4db88032f23733377
   - enabled: 1
-    path: Assets/Scenes/ControlScene/PlatformerControl.unity
+    path: Assets/Scenes/PlatformerScenes/PlatformerControl.unity
     guid: ec7c820d380b2644cb02fd9b4233fdb3
   - enabled: 1
     path: Assets/Scenes/PlatformerScenes/Platformer.unity
@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Traffic Rush/Scenes/CountDown.unity
     guid: ccdc16f836c9cf24788b1b28821dc716
+  - enabled: 1
+    path: Assets/Scenes/PlatformerScenes/CountDownPlatformer.unity
+    guid: 197c56c2b9fe7b64ea740d0eea376ef3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
