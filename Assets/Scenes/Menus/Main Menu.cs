@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
     public void ExitGame()
     {
         //Before compiling, uncomment Application.Quit() and remove the next line.
-        //Application.Quit();
-        UnityEditor.EditorApplication.isPlaying = false;
+        Application.Quit();
+        //UnityEditor.EditorApplication.isPlaying = false;
     }
 }
