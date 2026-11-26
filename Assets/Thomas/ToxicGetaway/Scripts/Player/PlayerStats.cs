@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace ToxicGetaway
 {
@@ -29,7 +30,7 @@ namespace ToxicGetaway
             if (HP <= 0)
             {
                 Debug.Log("Player has died.");
-                // Die();
+                SceneManager.LoadScene("Swallowed");
             }
         }
     }
