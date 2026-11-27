@@ -6,8 +6,8 @@ public class Goal : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            // Application.Quit();
-            UnityEditor.EditorApplication.isPlaying = false;
+            Debug.Log("You WIN!");
+            PlatformerSystem.onGameStateChange?.Invoke(true);
         }
     }
 }
