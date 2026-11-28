@@ -12,6 +12,13 @@ public class MusicManager : MonoBehaviour
     public float perfectWindow = 0.1f;
     public float goodWindow = 0.25f;
 
+    [Header("Material")]
+    private Material originalMaterial;
+    public Material perfectMaterial;
+    public Material goodMaterial;
+    public Material badMaterial;
+    private Renderer circleRenderer;
+    
     // Rhythm map (beat positions)
     // 0 = first beat of song
     // 1 = second beat
@@ -77,6 +84,9 @@ public class MusicManager : MonoBehaviour
     void Start()
     {
         GenerateNoteTimes();
+
+        circleRenderer = GetComponent<Renderer>();
+        originalMaterial = circleRenderer.material;
     }
 
     void Update()
@@ -118,15 +128,27 @@ public class MusicManager : MonoBehaviour
         {
             Debug.Log("PERFECT!");
             nextHitNote++;
+
+            circleRenderer.material = perfectMaterial;
+            Invoke("ResetMaterial", 0.2f);
         }
         else if (difference <= goodWindow)
         {
             Debug.Log("GOOD!");
             nextHitNote++;
+            circleRenderer.material = goodMaterial;
+            Invoke("ResetMaterial", 0.2f);
         }
         else
         {
             Debug.Log("MISS!");
+            circleRenderer.material = badMaterial;
+            Invoke("ResetMaterial", 0.2f);
         }
+    }
+
+    void ResetMaterial()
+    {
+        circleRenderer.material = originalMaterial;
     }
 }
