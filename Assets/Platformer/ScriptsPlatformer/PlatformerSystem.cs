@@ -11,6 +11,7 @@ public class PlatformerSystem : MonoBehaviour
     public static UnityEvent OnPlayerKill = new();
     public static UnityEvent OnPlayerJump = new();
     public static UnityEvent OnPlayerMove = new();
+    public static UnityEvent OnPlayerStopMove = new();
     public static Action<bool> onGameStateChange;
 
 

@@ -18,7 +18,18 @@ public class PlatformerAudio : MonoBehaviour
 
     private void PlayMoveSound()
     {
-        walkSound.Play();
+        if (!walkSound.isPlaying)
+        {
+            walkSound.Play();
+        }
+    }
+
+    private void StopMoveSound()
+    {
+        if (walkSound.isPlaying)
+        {
+            walkSound.Stop();
+        }
     }
 
     private void OnEnable()
@@ -26,6 +37,7 @@ public class PlatformerAudio : MonoBehaviour
         PlatformerSystem.OnPlayerKill.AddListener(PlayDamageSounds);
         PlatformerSystem.OnPlayerJump.AddListener(PlayJumpSound);
         PlatformerSystem.OnPlayerMove.AddListener(PlayMoveSound);
+        PlatformerSystem.OnPlayerStopMove.AddListener(StopMoveSound);
     }
 
     private void OnDisable()
@@ -33,5 +45,6 @@ public class PlatformerAudio : MonoBehaviour
         PlatformerSystem.OnPlayerKill.RemoveListener(PlayDamageSounds);
         PlatformerSystem.OnPlayerJump.RemoveListener(PlayJumpSound);
         PlatformerSystem.OnPlayerMove.RemoveListener(PlayMoveSound);
+        PlatformerSystem.OnPlayerStopMove.RemoveListener(StopMoveSound);
     }
 }

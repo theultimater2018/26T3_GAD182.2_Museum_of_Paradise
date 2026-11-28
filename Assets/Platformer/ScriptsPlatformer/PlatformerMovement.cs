@@ -72,9 +72,14 @@ public class PlatformerMovement : MonoBehaviour
     }
     private void Update()
     {
-        if (moveInput == 0)
+        if (moveInput != 0)
         {
             PlatformerSystem.OnPlayerMove?.Invoke();
+        }
+
+        if (!IsGrounded() || moveInput == 0)
+        {
+            PlatformerSystem.OnPlayerStopMove?.Invoke();
         }
     }
 
