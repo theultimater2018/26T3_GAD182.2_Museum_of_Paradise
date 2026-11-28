@@ -3,7 +3,6 @@ using UnityEngine;
 public class PlatformerAudio : MonoBehaviour
 {
     [SerializeField] private AudioSource jumpSound;
-    [SerializeField] private AudioSource hurtSound;
     [SerializeField] private AudioSource splashSound;
     [SerializeField] private AudioSource walkSound;
     
@@ -15,7 +14,6 @@ public class PlatformerAudio : MonoBehaviour
     private void PlayDamageSounds()
     {
         splashSound.Play();
-        hurtSound.Play();
     }
 
     private void OnEnable()
