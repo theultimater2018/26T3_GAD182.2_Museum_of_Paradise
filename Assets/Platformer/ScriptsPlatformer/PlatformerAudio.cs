@@ -8,12 +8,18 @@ public class PlatformerAudio : MonoBehaviour
     
     private void PlayJumpSound()
     {
-        jumpSound.Play();
+        if (!jumpSound.isPlaying)
+        {
+            jumpSound.Play();
+        }
     }
 
     private void PlayDamageSounds()
     {
-        splashSound.Play();
+        if (!splashSound.isPlaying)
+        {
+            splashSound.Play();
+        }
     }
 
     private void PlayMoveSound()
