@@ -25,6 +25,7 @@ public class PlatformerMovement : MonoBehaviour
         if (context.performed && IsGrounded())
         {
             playerRigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            PlatformerSystem.OnPlayerJump?.Invoke();
             // Debug.Log("Jump" + context.phase);
         }
     }

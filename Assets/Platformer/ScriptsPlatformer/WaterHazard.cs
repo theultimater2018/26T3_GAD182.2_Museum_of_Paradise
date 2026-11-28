@@ -9,6 +9,7 @@ public class WaterHazard : MonoBehaviour
         {
             Debug.Log("Splish Sploosh");
             PlatformerSystem.OnPlayerKill?.Invoke();
+            PlatformerSystem.OnPlayerDamaged?.Invoke(); // Invoke the sounds (Splash & Hurt)
         }
     }
 }
