@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlatformerAudio : MonoBehaviour
 {
-    [SerializeField] private AudioSource jumpSound;
+    [SerializeField] private AudioSource jumpSound; 
     [SerializeField] private AudioSource splashSound;
     [SerializeField] private AudioSource walkSound;
     
@@ -18,13 +18,13 @@ public class PlatformerAudio : MonoBehaviour
 
     private void OnEnable()
     {
-        PlatformerSystem.OnPlayerDamaged.AddListener(PlayDamageSounds);
+        PlatformerSystem.OnPlayerKill.AddListener(PlayDamageSounds);
         PlatformerSystem.OnPlayerJump.AddListener(PlayJumpSound);
     }
 
     private void OnDisable()
     {
-        PlatformerSystem.OnPlayerDamaged.RemoveListener(PlayDamageSounds);
+        PlatformerSystem.OnPlayerKill.RemoveListener(PlayDamageSounds);
         PlatformerSystem.OnPlayerJump.RemoveListener(PlayJumpSound);
     }
 }

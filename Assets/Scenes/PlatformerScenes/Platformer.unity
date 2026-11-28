@@ -2430,7 +2430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpSound: {fileID: 53778474}
   splashSound: {fileID: 333462831}
-  walkSound: {fileID: 0}
+  walkSound: {fileID: 1634327474}
 --- !u!1 &1041748438
 GameObject:
   m_ObjectHideFlags: 0
