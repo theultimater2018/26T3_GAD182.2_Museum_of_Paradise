@@ -68,6 +68,14 @@ public class PlatformerMovement : MonoBehaviour
         playerRigidbody.linearVelocity = new Vector2(moveInput * speed, playerRigidbody.linearVelocity.y);
         animator.SetFloat("xVelocity", Math.Abs(playerRigidbody.linearVelocityX));
         FlipSprite();
+        //If the player is moving, play the movement sound
+    }
+    private void Update()
+    {
+        if (moveInput == 0)
+        {
+            PlatformerSystem.OnPlayerMove?.Invoke();
+        }
     }
 
     private void OnDrawGizmos()

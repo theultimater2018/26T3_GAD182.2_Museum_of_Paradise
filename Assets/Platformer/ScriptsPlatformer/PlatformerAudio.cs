@@ -16,15 +16,22 @@ public class PlatformerAudio : MonoBehaviour
         splashSound.Play();
     }
 
+    private void PlayMoveSound()
+    {
+        walkSound.Play();
+    }
+
     private void OnEnable()
     {
         PlatformerSystem.OnPlayerKill.AddListener(PlayDamageSounds);
         PlatformerSystem.OnPlayerJump.AddListener(PlayJumpSound);
+        PlatformerSystem.OnPlayerMove.AddListener(PlayMoveSound);
     }
 
     private void OnDisable()
     {
         PlatformerSystem.OnPlayerKill.RemoveListener(PlayDamageSounds);
         PlatformerSystem.OnPlayerJump.RemoveListener(PlayJumpSound);
+        PlatformerSystem.OnPlayerMove.RemoveListener(PlayMoveSound);
     }
 }
